@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Find Day From Date</title>
+</head>
+<body>
+    <div id="clockContainer">
+        <div id="clock">00:00:00</div>
+    </div>
+    <div id="dayFromDateContainer">
+        <form onsubmit="event.preventDefault(); dayToDate()" id="dayFromDate">
+            <label for="year">Year</label>
+            <input class="input" type="number" min="0" value="0" autocomplete="off" id="year">
+
+            <label for="month">Month</label>
+            <input class="input" type="number" min="1" max="12" value="1" autocomplete="off" id="month">
+
+            <label for="day">Day</label>
+            <input class="input" type="number" min="1" max="31" value="1" autocomplete="off" id="day">
+
+            <button onclick="dayToDate()">Calculate</button>
+            <h3 id="result"></h3>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body{
+    font-family: monospace;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+
+#clockContainer{
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+
+#dayFromDateContainer{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+    font-size: 1.5em;
+}
+
+button{
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.input{
+    margin-right: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+}
